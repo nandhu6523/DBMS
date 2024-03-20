@@ -70,7 +70,7 @@ To create a student database and execute DDL queries using SQL.
 ### 5) Drop the mystudent table
  
 ### SQL QUERY: 
-`alter table student rename to mystudent;`
+`drop table student;`
 
 
 ### OUTPUT:
