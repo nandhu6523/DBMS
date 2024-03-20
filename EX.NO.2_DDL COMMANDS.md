@@ -51,7 +51,9 @@ drop table student;
 
 
 ### OUTPUT:
-  ![Screenshot 2024-03-20 105830](https://github.com/nandhu6523/DBMS/assets/123856724/1ad35aef-48de-446d-a4e0-6e1eff76c77f)
+![Screenshot 2024-03-20 110019](https://github.com/nandhu6523/DBMS/assets/123856724/3472d823-ecc5-4ae3-ab58-042383240764)
+
+
 
 
 ### 4) Delete the mystudent rows using truncate keyword
@@ -62,7 +64,8 @@ truncate table student;
 
 ### OUTPUT:
 
-  ![Screenshot 2024-03-20 105830](https://github.com/nandhu6523/DBMS/assets/123856724/d8c86dbb-33c1-483a-8bf8-34162ae02c23)
+![Screenshot 2024-03-20 105953](https://github.com/nandhu6523/DBMS/assets/123856724/2bfe15d5-6ed6-4e49-b474-abbb6c7a8e4f)
+
 
 ### 5) Drop the mystudent table
  
