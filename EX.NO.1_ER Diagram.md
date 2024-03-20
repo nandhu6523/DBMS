@@ -26,20 +26,20 @@
 
 ### SQL DDL Schema 
 '''
-CREATE TABLE Instructor
-(
-  I_id INT NOT NULL,
-  Full_name INT NOT NULL,
-  Email INT NOT NULL,
-  PRIMARY KEY (I_id)
-);
+ CREATE TABLE Instructor
+ (
+   I_id INT NOT NULL,
+   Full_name INT NOT NULL,
+   Email INT NOT NULL,
+   PRIMARY KEY (I_id)
+ );
 
-CREATE TABLE Department
-(
-  D_id INT NOT NULL,
-  D_name INT NOT NULL,
-  PRIMARY KEY (D_id)
-);
+ CREATE TABLE Department
+ (
+   D_id INT NOT NULL,
+   D_name INT NOT NULL,
+   PRIMARY KEY (D_id)
+ );
 
 CREATE TABLE Instructor_phone.no
 (
