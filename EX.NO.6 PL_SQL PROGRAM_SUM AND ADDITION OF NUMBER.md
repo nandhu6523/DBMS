@@ -11,12 +11,18 @@
 
 ### Program:
 `declare
-a number :=10;
-b number :=20;
-begin
-dbms_output.put_line(a+b);
-dbms_output.put_line(a-b);
-end;`
+
+ a number :=10;
+ 
+ b number :=20;
+ 
+ begin
+ 
+ dbms_output.put_line(a+b);
+ 
+ dbms_output.put_line(a-b);
+ 
+ end;
 
 
 ### Output:
