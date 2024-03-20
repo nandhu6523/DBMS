@@ -43,7 +43,8 @@ ALTER TABLE student
 ADD department VARCHAR2(50);
 ```
 ### OUTPUT:
-![Screenshot 2024-03-20 103531](https://github.com/22003197/DBMS/assets/124332243/d55f2cff-df1f-45a1-8390-26f6cc480332)
+
+![Screenshot 2024-03-20 110014](https://github.com/22003197/DBMS/assets/124332243/37b8fd05-146a-401f-b4b0-92e9a2eef15a)
 
 ### 3) Rename the student table to mystudent
 
