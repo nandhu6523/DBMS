@@ -26,12 +26,15 @@
 
 ### SQL DDL Schema 
 '''
- CREATE TABLE Instructor
- (
-   I_id INT NOT NULL,
-   Full_name INT NOT NULL,
-   Email INT NOT NULL,
-   PRIMARY KEY (I_id)
+   CREATE TABLE Instructor
+  (
+    I_id INT NOT NULL,
+    
+    Full_name INT NOT NULL,
+    
+    Email INT NOT NULL,
+    
+    PRIMARY KEY (I_id)
  );
 
  CREATE TABLE Department
