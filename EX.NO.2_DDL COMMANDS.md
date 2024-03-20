@@ -21,45 +21,59 @@ To create a student database and execute DDL queries using SQL.
 5. RENAME: This is used to rename an object existing in the database.
 
 ## Query:
-### 1) Create a database studentdb
+
+
+### 1) Create a table student  and insert any two rows with the following fieds RegisterNumber,Name,Age,Address,Phone number
 
 ### SQL QUERY:
+ create table student(rollno int,name char(20),age int,address varchar(20),phoneno int);
+
 
 ### OUTPUT:
+   ![Screenshot 2024-03-20 105305](https://github.com/nandhu6523/DBMS/assets/123856724/32f888d5-6f11-4374-8338-e319ef933b97)
 
-### 2) Create a table student  and insert any two rows with the following fieds RegisterNumber,Name,Age,Address,Phone number
+
+### 2) Alter the above student table by adding another attribute department
 
 ### SQL QUERY: 
 
+alter table student add department char(30);
 
 ### OUTPUT:
+  ![Screenshot 2024-03-20 105401](https://github.com/nandhu6523/DBMS/assets/123856724/84a2b844-6df6-41a3-a129-f1f847cae16a)
 
-### 3) Alter the above student table by adding another attribute department
+
+### 3) Rename the student table to mystudent
+
+### SQL QUERY:
+drop table student;
+
+
+
+### OUTPUT:
+  ![Screenshot 2024-03-20 105830](https://github.com/nandhu6523/DBMS/assets/123856724/1ad35aef-48de-446d-a4e0-6e1eff76c77f)
+
+
+### 4) Delete the mystudent rows using truncate keyword
 
 ### SQL QUERY: 
-
-### OUTPUT:
-
-### 4) Rename the student table to mystudent
-
-### SQL QUERY: 
-
+truncate table student;
 
 
 ### OUTPUT:
 
-### 5) Delete the mystudent rows using truncate keyword
+  ![Screenshot 2024-03-20 105830](https://github.com/nandhu6523/DBMS/assets/123856724/d8c86dbb-33c1-483a-8bf8-34162ae02c23)
 
-### SQL QUERY: 
-
-
-### OUTPUT:
-### 4) Drop the mystudent table
+### 5) Drop the mystudent table
  
 ### SQL QUERY: 
+alter table student rename to mystudent;
 
 
 ### OUTPUT:
+
+ ![Screenshot 2024-03-20 110019](https://github.com/nandhu6523/DBMS/assets/123856724/2743f080-5336-4a12-9ce7-1267fed478de)
+
 
 
 
