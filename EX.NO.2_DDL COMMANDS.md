@@ -30,9 +30,18 @@ To create a student database and execute DDL queries using SQL.
 ### 2) Create a table student  and insert any two rows with the following fieds RegisterNumber,Name,Age,Address,Phone number
 
 ### SQL QUERY: 
-
+'''
+CREATE TABLE student (
+    RegisterNumber INT PRIMARY KEY,
+    Name VARCHAR2(50),
+    Age INT,
+    Address VARCHAR2(100),
+    PhoneNumber VARCHAR2(20)
+);
+'''
 
 ### OUTPUT:
+![Screenshot 2024-03-20 105210](https://github.com/22003197/DBMS/assets/124332243/9eee1d1c-8805-4d10-9551-c321b67d32f2)
 
 ### 3) Alter the above student table by adding another attribute department
 
