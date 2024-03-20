@@ -37,7 +37,7 @@ To create a student database and execute DDL queries using SQL.
 
 ### SQL QUERY: 
 
-alter table student add department char(30);
+`alter table student add department char(30);`
 
 ### OUTPUT:
   ![Screenshot 2024-03-20 105401](https://github.com/nandhu6523/DBMS/assets/123856724/84a2b844-6df6-41a3-a129-f1f847cae16a)
@@ -46,7 +46,7 @@ alter table student add department char(30);
 ### 3) Rename the student table to mystudent
 
 ### SQL QUERY:
-drop table student;
+`drop table student;`
 
 
 
@@ -59,7 +59,7 @@ drop table student;
 ### 4) Delete the mystudent rows using truncate keyword
 
 ### SQL QUERY: 
-truncate table student;
+`truncate table student;`
 
 
 ### OUTPUT:
@@ -70,7 +70,7 @@ truncate table student;
 ### 5) Drop the mystudent table
  
 ### SQL QUERY: 
-alter table student rename to mystudent;
+`alter table student rename to mystudent;`
 
 
 ### OUTPUT:
