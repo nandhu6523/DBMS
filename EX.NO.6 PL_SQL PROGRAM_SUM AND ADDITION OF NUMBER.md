@@ -10,23 +10,27 @@
 5. End the begin section.
 
 ### Program:
-`declare
+SET SERVEROUTPUT ON;
 
- a number :=10;
- 
- b number :=20;
- 
- begin
- 
- dbms_output.put_line(a+b);
- 
- dbms_output.put_line(a-b);
- 
- end;
+DECLARE
+    num1 NUMBER := 10;
+    num2 NUMBER := 5;
+    result_add NUMBER;
+    result_sub NUMBER;
+BEGIN
+    -- Addition
+    result_add := num1 + num2;
+    DBMS_OUTPUT.PUT_LINE('Addition Result: ' || result_add);
+
+    -- Subtraction
+    result_sub := num1 - num2;
+    DBMS_OUTPUT.PUT_LINE('Subtraction Result: ' || result_sub);
+END;
 
 
 ### Output:
-![Screenshot 2024-03-20 115147](https://github.com/nandhu6523/DBMS/assets/123856724/22acaf98-9726-4191-8c73-15fd5ca45fec)
+![Screenshot 2024-03-20 115522](https://github.com/nandhu6523/DBMS/assets/123856724/215c95de-02be-4ae8-b712-12d1d0bb154c)
+
 
 
 ### Result:
