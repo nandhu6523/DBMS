@@ -46,7 +46,7 @@ To create a student database and execute DDL queries using SQL.
 ### 3) Rename the student table to mystudent
 
 ### SQL QUERY:
-`drop table student;`
+`alter table student rename to mystudent;`
 
 
 
