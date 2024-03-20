@@ -61,7 +61,7 @@ ALTER TABLE student RENAME TO mystudent;
 TRUNCATE TABLE mystudent;
 ```
 ### OUTPUT:
-![Screenshot 2024-03-20 103531](https://github.com/22003197/DBMS/assets/124332243/10b584d7-afed-4426-acca-24ce4fc85ef9)
+![Screenshot 2024-03-20 110237](https://github.com/22003197/DBMS/assets/124332243/bcf26fd5-dff7-4fce-8ad0-a98235ad0a7c)
 
 ### 5) Drop the mystudent table
  
