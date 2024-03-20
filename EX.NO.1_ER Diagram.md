@@ -1,4 +1,4 @@
-# EXP NO 1: ER DIAGRAM CREATION, RELATIONAL MODEL AND SCHEMA GENERATION  
+![image (2)(1)](https://github.com/nandhu6523/DBMS/assets/123856724/795f3449-a755-45a1-8aaf-93225943dba5)# EXP NO 1: ER DIAGRAM CREATION, RELATIONAL MODEL AND SCHEMA GENERATION  
 ### DATE
 ## AIM:
 <div align="justify">
@@ -13,7 +13,9 @@
 5. Specify attributes unique, multivalued and composite attributes.
 
 ### ER Diagram 
-![Uploading image (2)(1).png…]()
+![image (2)(1)](https://github.com/nandhu6523/DBMS/assets/123856724/7438194d-ea47-4645-b275-ed87dce8e887)
+
+
 
 
 
@@ -23,6 +25,7 @@
 
 
 ### SQL DDL Schema 
+'''
 CREATE TABLE Instructor
 (
   I_id INT NOT NULL,
