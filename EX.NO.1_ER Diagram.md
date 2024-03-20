@@ -37,31 +37,31 @@
     PRIMARY KEY (I_id)
  );
 
- CREATE TABLE Department
- (
-   D_id INT NOT NULL,
-   D_name INT NOT NULL,
-   PRIMARY KEY (D_id)
+  CREATE TABLE Department
+  (
+    D_id INT NOT NULL,
+    D_name INT NOT NULL,
+    PRIMARY KEY (D_id)
  );
 
-CREATE TABLE Instructor_phone.no
-(
-  phone.no INT NOT NULL,
-  I_id INT NOT NULL,
-  PRIMARY KEY (phone.no, I_id),
-  FOREIGN KEY (I_id) REFERENCES Instructor(I_id)
+ CREATE TABLE Instructor_phone.no
+ (
+    phone.no INT NOT NULL,
+    I_id INT NOT NULL,
+    PRIMARY KEY (phone.no, I_id),
+    FOREIGN KEY (I_id) REFERENCES Instructor(I_id)
 );
 
-CREATE TABLE Student
+ CREATE TABLE Student
 (
-  S_id INT NOT NULL,
-  Fname INT NOT NULL,
-  Lnmae INT NOT NULL,
-  DOB INT NOT NULL,
-  Email INT NOT NULL,
-  D_id INT NOT NULL,
-  PRIMARY KEY (S_id),
-  FOREIGN KEY (D_id) REFERENCES Department(D_id)
+    S_id INT NOT NULL,
+    Fname INT NOT NULL,
+    Lnmae INT NOT NULL,
+    DOB INT NOT NULL,
+    Email INT NOT NULL,
+    D_id INT NOT NULL,
+    PRIMARY KEY (S_id),
+    FOREIGN KEY (D_id) REFERENCES Department(D_id)
 );
 
 CREATE TABLE Program
