@@ -14,16 +14,24 @@ SET SERVEROUTPUT ON;
 
 DECLARE
     num1 NUMBER := 10;
+    
     num2 NUMBER := 5;
+    
     result_add NUMBER;
+    
     result_sub NUMBER;
+    
 BEGIN
     -- Addition
+    
     result_add := num1 + num2;
+    
     DBMS_OUTPUT.PUT_LINE('Addition Result: ' || result_add);
 
     -- Subtraction
+    
     result_sub := num1 - num2;
+    
     DBMS_OUTPUT.PUT_LINE('Subtraction Result: ' || result_sub);
 END;
 
