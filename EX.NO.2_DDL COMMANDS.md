@@ -43,7 +43,7 @@ ALTER TABLE student
 ADD department VARCHAR2(50);
 ```
 ### OUTPUT:
-![Screenshot 2024-03-20 105210](https://github.com/22003197/DBMS/assets/124332243/8f033bc1-42b2-496f-aca4-1ceeb68d25ca)
+![Screenshot 2024-03-20 103531](https://github.com/22003197/DBMS/assets/124332243/d55f2cff-df1f-45a1-8390-26f6cc480332)
 
 ### 3) Rename the student table to mystudent
 
@@ -61,7 +61,7 @@ ALTER TABLE student RENAME TO mystudent;
 TRUNCATE TABLE mystudent;
 ```
 ### OUTPUT:
-![Screenshot 2024-03-20 110014](https://github.com/22003197/DBMS/assets/124332243/ff740fa7-009a-41cb-9964-e4c1d3930b1f)
+![Screenshot 2024-03-20 103531](https://github.com/22003197/DBMS/assets/124332243/10b584d7-afed-4426-acca-24ce4fc85ef9)
 
 ### 5) Drop the mystudent table
  
