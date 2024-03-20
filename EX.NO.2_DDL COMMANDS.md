@@ -75,7 +75,8 @@ To create a student database and execute DDL queries using SQL.
 
 ### OUTPUT:
 
- ![Screenshot 2024-03-20 110019](https://github.com/nandhu6523/DBMS/assets/123856724/2743f080-5336-4a12-9ce7-1267fed478de)
+![Screenshot 2024-03-20 105830](https://github.com/nandhu6523/DBMS/assets/123856724/8333d457-8fca-4466-9c4e-649a858ed20d)
+
 
 
 
