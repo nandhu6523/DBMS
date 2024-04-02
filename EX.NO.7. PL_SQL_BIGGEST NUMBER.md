@@ -20,6 +20,7 @@
        
        biggest NUMBER;
  BEGIN
+      
       IF a >= b AND a >= c THEN
       
          biggest := a;
