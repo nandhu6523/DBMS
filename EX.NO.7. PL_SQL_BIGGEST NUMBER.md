@@ -20,12 +20,18 @@
        
        biggest NUMBER;
  BEGIN
-     IF a >= b AND a >= c THEN
+      IF a >= b AND a >= c THEN
+      
          biggest := a;
+         
      ELSIF b >= a AND b >= c THEN
+     
          biggest := b;
+         
      ELSE
+     
          biggest := c;
+         
      END IF;
     
     DBMS_OUTPUT.PUT_LINE('The biggest of ' || a || ', ' || b || ', and ' || c || ' is: ' || biggest);
