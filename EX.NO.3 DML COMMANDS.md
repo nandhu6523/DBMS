@@ -146,26 +146,34 @@ select ename from manager where deptno != 30 and deptno != 40 and deptno != 10;
 ### Q13) Find number of rows in the table EMP
 
 ### QUERY:
-
-
+```
+select count (*) as count_ename from manager;
+```
 ### OUTPUT:
+![Screenshot 2024-04-02 143141](https://github.com/22003197/DBMS/assets/124332243/aa7b5f91-83e9-4e93-9f24-3a32d5a1092f)
 
 
 ### Q14) Find maximum, minimum and average salary in EMP table.
 
 ### QUERY:
-
-
+```
+select avg(salary) as tot_salary from manager;
+select min(salary) as min_salary from manager;
+select max(salary) as max_salary from manager;
+```
 ### OUTPUT:
-
+![Screenshot 2024-04-02 143219](https://github.com/22003197/DBMS/assets/124332243/cdcd1cc1-d4df-472c-9003-1c9c11a661d7)
+![Screenshot 2024-04-02 143225](https://github.com/22003197/DBMS/assets/124332243/f05f92f2-a1b0-435b-a4b0-998fb598862d)
+![Screenshot 2024-04-02 143231](https://github.com/22003197/DBMS/assets/124332243/1acd98fe-cd93-4646-925f-cd5b4fe95618)
 
 ### Q15) List the jobs and number of employees in each job. The result should be in the descending order of the number of employees.
 
 ### QUERY:
-
-
+```
+select designation,enumber from manager order by designation ,enumber desc;
+```
 ### OUTPUT:
-
+![Screenshot 2024-04-02 143334](https://github.com/22003197/DBMS/assets/124332243/77b67886-8677-4ddb-b0b0-23835d4301d3)
 
 ## RESULT :
 Thus the basic DML commands are executed.
