@@ -53,42 +53,49 @@ SELECT ename AS "Name", salary * 12 AS "Annual Salary"
 FROM manager;
 ```
 ### OUTPUT:
-![Screenshot 2024-03-20 114703](https://github.com/22003197/DBMS/assets/124332243/a325a880-2415-496d-9181-c52b7996bd9a)
+![Screenshot 2024-04-02 134151](https://github.com/22003197/DBMS/assets/124332243/3874fb7b-bb2f-4484-a1d5-7ee3befc1bcd)
 
 ### Q5)	List the names of Clerks from emp table.
 
 
 ### QUERY:
-
-
+```
+select ename from manager where designation = 'clerk';
+```
 ### OUTPUT:
+![Screenshot 2024-04-02 134226](https://github.com/22003197/DBMS/assets/124332243/a9f96629-5f9e-4948-af5b-889e9201f719)
 
 
 ### Q6)	List the names of employee who are not Managers.
 
 
 ### QUERY:
-
-
+```
+select ename from manager where designation != 'manager';
+```
 ### OUTPUT:
-
+![Screenshot 2024-04-02 134318](https://github.com/22003197/DBMS/assets/124332243/07092244-3b85-4b8b-9132-f32768378238)
 
 ### Q7)	List the names of employees not eligible for commission.
 
 
 ### QUERY:
-
-
+```
+select ename from manager where commission = 0;
+```
 ### OUTPUT:
 
+![Screenshot 2024-04-02 134353](https://github.com/22003197/DBMS/assets/124332243/570a9250-c39c-4d33-8d4c-3d9212fc5002)
 
 ### Q8)	List employees whose name either start or end with ‘s’.
 
 
 ### QUERY:
-
-
+```
+select ename from manager where ename like 'S%' or ename like '%S';
+```
 ### OUTPUT:
+![Screenshot 2024-04-02 134421](https://github.com/22003197/DBMS/assets/124332243/2d80aca9-c5d9-4d58-a22a-af90daa3131b)
 
 
 ### Q9) Sort emp table in ascending order by hire-date and list ename, job, deptno and hire-date.
