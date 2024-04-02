@@ -12,10 +12,13 @@
 ### Program:
 '''
  DECLARE
-     a NUMBER := 10; 
-     b NUMBER := 20; 
-     c NUMBER := 15; 
-     biggest NUMBER;
+       a NUMBER := 10; 
+       
+       b NUMBER := 20; 
+       
+       c NUMBER := 15; 
+       
+       biggest NUMBER;
  BEGIN
      IF a >= b AND a >= c THEN
          biggest := a;
