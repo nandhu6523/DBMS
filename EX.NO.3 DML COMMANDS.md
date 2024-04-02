@@ -102,36 +102,46 @@ select ename from manager where ename like 'S%' or ename like '%S';
 
 
 ### QUERY:
-
-
+```
+select Hiredate,ename,designation,deptno from manager order by Hiredate;
+```
 ### OUTPUT:
-
+![Screenshot 2024-04-02 142330](https://github.com/22003197/DBMS/assets/124332243/3a84e254-95fa-407e-a324-e0da09fb2f98)
 
 ### Q10) List the Details of Employees who have joined before 30 Sept 81.
 
 
 ### QUERY:
-
+```
+select * from manager where hiredate<to_date('1981-09-30','YYYY-MM-DD');
+```
 
 ### OUTPUT:
+![Screenshot 2024-04-02 142422](https://github.com/22003197/DBMS/assets/124332243/446f65d1-14b2-4e63-8fc8-99c0b7ee3a30)
 
 
 ### Q11)	List ename, deptno and sal after sorting emp table in ascending order by deptno and then descending order by sal.
 
 
 ### QUERY:
-
+```
+select ename,deptno,salary from manager order by deptno,salary desc;
+```
 
 ### OUTPUT:
+![Screenshot 2024-04-02 142515](https://github.com/22003197/DBMS/assets/124332243/24bbfa0e-dc86-40f0-a09b-bc76932eafd3)
 
 
 ### Q12) List the names of employees not belonging to dept no 30,40 & 10
 
 
 ### QUERY:
-
+```
+select ename from manager where deptno != 30 and deptno != 40 and deptno != 10;
+```
 
 ### OUTPUT:
+![Screenshot 2024-04-02 142553](https://github.com/22003197/DBMS/assets/124332243/8d461fc7-b7de-4286-b5db-44f639466020)
 
 ### Q13) Find number of rows in the table EMP
 
