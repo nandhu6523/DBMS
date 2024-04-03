@@ -10,10 +10,26 @@
 5. End the begin section.
 
 ### Program:
-
-
+```
+create table customers(ID int,NAME varchar(20),AGE int,ADDRESS varchar(20),salary int);
+insert into customers values( 1,'Ramesh',32,'Ahmedabad',2000);
+insert into customers values( 1,'Khilan',25,'Delhi',1500);
+insert into customers values( 1,'kaushik ',23,'Kota',2000);
+DECLARE  
+   total_rows number(2); 
+BEGIN 
+   UPDATE customers 
+   SET salary = salary + 500; 
+   IF sql%notfound THEN 
+      dbms_output.put_line('no customers selected'); 
+   ELSIF sql%found THEN 
+      total_rows := sql%rowcount;
+      dbms_output.put_line( total_rows || ' customers selected '); 
+   END IF;  
+END; 
+/
+```
 ### Output:
-
-
+![Screenshot 2024-04-03 104606](https://github.com/22003197/DBMS/assets/123856724/6e1993b4-3d49-45be-800c-468fa0e8b9cd)
 ### Result:
 Thust the program was performed sucessfully.
