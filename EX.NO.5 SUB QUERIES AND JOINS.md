@@ -70,8 +70,11 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 
 
 ### QUERY:
-
-
+```sql
+SELECT ENAME
+FROM EMP
+WHERE SAL > (SELECT SAL FROM EMP WHERE EMPNO = 7566);
+```
 ### OUTPUT:
 
 ### Q2) List the ename,job,sal of the employee who get minimum salary in the company.
